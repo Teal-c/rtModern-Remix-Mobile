@@ -1,0 +1,115 @@
+/*** Custom CSS By Teal-c ***/
+/*** https://github.com/Teal-c/ ***/
+
+:root {
+  --color-white:#fff;
+  --color-primary:#3E2247;
+  --color-primary-hover:#037ba3;
+  --color-1:#141924;
+  --color-4:#171d29;
+  --color-5:#1d2534;
+  --color-6:#2b374d;
+}
+
+html, body { color: var(--color-white);background-color: var(--color-1)!important; }
+
+a { color: var(--color-primary-hover); }
+a:hover, a:focus { color: var(--color-primary); }
+
+.btn-primary,
+.btn-default { 
+  color:var(--color-white);
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
+}
+.btn-primary:hover,
+.btn-default:hover { 
+  color:var(--color-white);
+  background-color: var(--color-primary-hover);
+  border-color: var(--color-primary-hover);
+}
+
+.form-control,
+button, input, optgroup, select, textarea {
+  color:var(--color-1);
+  background-color: var(--color-white);
+  border-color: var(--color-white);
+}
+hr { border-top: 1px solid var(--color-6); }
+
+#torrentsList .nav,
+.nav-tabs {
+  background-color:var(--color-1);
+  background-position: center;
+}
+.nav-tabs {
+  border-bottom: 1px solid var(--color-6);
+}
+#torrentsList .nav a,
+.nav-tabs a {
+  color:var(--color-white);
+}
+
+.panel {
+  margin-bottom: 20px;
+  background-color: var(--color-1);
+  border: 1px solid var(--color-6);
+}
+.panel-default > .panel-heading {
+  color: var(--color-white);
+  background-color: var(--color-5);
+  border-color: var(--color-5);
+}
+
+.icon-black,
+.nav-tabs #sort #sortIcon i,
+.nav-tabs #refresh #refreshIcon i {
+  color: var(--color-white); 
+}
+
+.dropdown-menu { background-color: var(--color-1); }
+.nav-tabs .open .dropdown-toggle {
+  background-color: var(--color-primary-hover) !important;
+  border-color: var(--color-primary-hover) !important;
+}
+.dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover {
+  color: var(--color-white);
+  background-color: var(--color-primary);
+}
+
+#mainContainer {
+  background-color: var(--color-4);
+}
+
+.tableFixHead th { background-color: var(--color-5); }
+.table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th {
+  border-top: 1px solid var(--color-6) !important;
+}
+.table-striped > tbody > tr:nth-of-type(2n+1) {
+  background-color: var(--color-5);
+}
+.table > thead > tr > th {
+  border-bottom: 2px solid var(--color-6) !important;
+}
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
+  background-color: var(--color-primary);
+  border: 1px solid var(--color-primary);
+  border-bottom: 1px solid var(--color-6);
+  color: var(--color-white);
+}
+
+.navbar-inverse {
+  background-color: var(--color-1);
+  border-color: var(--color-6);
+}
+
+.progress { background-color: var(--color-5); }
+.progress-bar { background-color: var(--color-primary); }
+.progress-bar-striped, .progress-striped .progress-bar {
+  background-image: -webkit-linear-gradient(45deg,rgba(20, 25, 36,.15) 25%,transparent 25%,transparent 50%,rgba(20, 25, 36,.15) 50%,rgba(20, 25, 36,.15) 75%,transparent 75%,transparent);
+  background-image: -o-linear-gradient(45deg,rgba(20, 25, 36,.15) 25%,transparent 25%,transparent 50%,rgba(20, 25, 36,.15) 50%,rgba(20, 25, 36,.15) 75%,transparent 75%,transparent);
+  background-image: linear-gradient(45deg,rgba(20, 25, 36,.15) 25%,transparent 25%,transparent 50%,rgba(20, 25, 36,.15) 50%,rgba(20, 25, 36,.15) 75%,transparent 75%,transparent);
+  -webkit-background-size: 40px 40px;
+  background-size: 40px 40px;
+}
